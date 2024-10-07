@@ -8,11 +8,16 @@ Welcome to my portfolio! I’m a college student who writes about and documents 
 
 ![.](https://github.com/rem357/idm221-rem357/blob/main/about%20me%20pfp.JPG?raw=true)
 
-Hello there, I’m Riley, a sophomore at Drexel University majoring in User Experience and Interaction Design. I currently live on campus in the city of Philadelphia, but I am originally from a suburb of Philly, Malvern, PA. I grew up in a very busy household with three brothers and even more pets: two dogs (Koda and Marigold) and two cats (Mango and Vail).
+Hello there, I’m Riley, a curently a sophomore at Drexel University majoring in User Experience and Interaction Design and on a 5 year track. I currently live on campus in the city of Philadelphia, but I am originally from a suburb of Philly, Malvern, PA. On campus, I am an active member of the Alpaha Sigma Alpha sorority. I grew up in a very busy household with three brothers and even more pets: two dogs (Koda and Marigold) and two cats (Mango and Vail). 
 
-Growing up in a chaotic and ever-changing household helped me to learn and develop various skills that taught me I love to use my creativity to simplify, organize, and control chaos in visually appealing ways. These qualities led me to find the wonderful field of UXID. When I’m not in class, studying, working, or exploring Philly, I love going to concerts, listening to music, baking, cooking, watching movies, and going on runs.
+![picture of dogs](URL) 
 
-I love winter and colder weather; I am an avid skier and have been skiing since I was six, and I enjoy making trips up to the Poconos and Quebec every winter. I also love photography, video editing, and music, often finding myself holed up for hours creating playlists or experimental edits that incorporate multiple forms of media. I love the outdoors, traveling, and hiking, always searching for cool places to seek out and explore.
+![picture of cats](URL)
+
+
+Growing up in a loving but chaotic and ever-changing household helped me to learn and develop various skills that taught me I love to use my creativity to simplify, organize, and control chaos in visually appealing ways. These qualities led me to find the wonderful field of UXID. When I’m not in class, studying, working, or exploring Philly, I love going to concerts, listening to music, baking, cooking, watching movies, and going on runs.
+
+I love winter and colder weather; I am an avid skier and have been skiing since I was six, and I enjoy making trips up to the Poconos and Quebec in the winters. I also love photography, video editing, and music, often finding myself holed up for hours creating playlists or experimental edits that incorporate multiple forms of media. I love the outdoors, traveling, and hiking, always searching for cool places to seek out and explore.
 
 ---
 
@@ -53,9 +58,13 @@ In the realm of product design, collaboration is often a cornerstone of innovati
 Our project began with extensive research into existing water filtration systems and user pain points. We conducted surveys, interviews, and market analysis to identify common issues faced by consumers. Through this process, we discovered that many users found traditional water filtration systems cumbersome to fill and transport, often resulting in spills and inconvenience. Additionally, there was a growing interest in understanding the quality of purified water, specifically knowing what toxins were removed.
 
 ![Ideations](URL)
+
 ![Prototyping](URL)
+
 ![Logo](URL)
+
 ![Digital Mood Board](URL)
+
 ![Final Ideation](URL)
 
 Armed with insights from our research, we established the primary objectives for our product:
@@ -70,6 +79,7 @@ One significant challenge we faced was finding the balance between functionality
 Our iterative design process was fueled by continuous feedback loops. We conducted usability tests with prototypes at various stages of development, soliciting feedback from potential users. This feedback guided our design decisions, allowing us to refine and improve the product iteratively. For example, during one usability test, we discovered that our initial design for the filling mechanism was overly complex, leading to confusion among users. In response, we simplified the design, opting for a one-step filling process that significantly enhanced the user experience.
 
 ![Purepour App 1](URL)
+
 ![Purepour App 2](URL)
 
 Central to our design was the integration of a companion app that provided users with valuable insights into their water quality. We collaborated with developers to ensure seamless integration between the hardware and software components of our product. The app allowed users to track the purification process in real-time, providing information on the types of toxins removed and the overall quality of the water.
@@ -91,6 +101,7 @@ The project commenced with the formation of teams. We brainstormed ideas on how 
 One of the key milestones in our project was the creation of wireframes using Figma. Collaborating in real-time on the Figma platform allowed us to iterate quickly and incorporate feedback from both our team members and our instructor. We carefully crafted each screen, paying attention to layout, typography, color schemes, and interactive elements to ensure a cohesive and user-friendly design.
 
 ![TMS Wireframe](URL)
+
 ![TMS Main Issues](URL)
 
 Signifiers played a significant role in guiding users through the website. We introduced clear and intuitive icons and labels to indicate different functionalities, making it easier for users to understand and navigate the interface. Additionally, we paid attention to mapping, ensuring that the website’s structure and organization followed logical patterns that users could easily follow.
