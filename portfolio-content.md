@@ -6,7 +6,7 @@ Welcome to my portfolio! I’m a college student who writes about and documents 
 
 # About Me
 
-![.](https://github.com/rem357/idm221-rem357/blob/main/03539D63-EC47-4E37-89CB-EE62F94AE070.JPG?raw=true)
+![.](https://github.com/rem357/idm221-rem357/blob/main/about%20me%20pfp.JPG?raw=true)
 
 Hello there, I’m Riley, a sophomore at Drexel University majoring in User Experience and Interaction Design. I currently live on campus in the city of Philadelphia, but I am originally from a suburb of Philly, Malvern, PA. I grew up in a very busy household with three brothers and even more pets: two dogs (Koda and Marigold) and two cats (Mango and Vail).
 
@@ -400,3 +400,6 @@ Bachelor of Science in User Experience & Interaction Design | Expected 06/2028
 - Member of Alpha Sigma Alpha Sorority (2023-present)
 - Volunteer for Girls On the Run (2023-present)
 - Volunteer for Special Olympics (2023-present)
+
+
+
