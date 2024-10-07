@@ -69,6 +69,9 @@ One significant challenge we faced was finding the balance between functionality
 
 Our iterative design process was fueled by continuous feedback loops. We conducted usability tests with prototypes at various stages of development, soliciting feedback from potential users. This feedback guided our design decisions, allowing us to refine and improve the product iteratively. For example, during one usability test, we discovered that our initial design for the filling mechanism was overly complex, leading to confusion among users. In response, we simplified the design, opting for a one-step filling process that significantly enhanced the user experience.
 
+![Purepour App 1](URL)
+![Purepour App 2](URL)
+
 Central to our design was the integration of a companion app that provided users with valuable insights into their water quality. We collaborated with developers to ensure seamless integration between the hardware and software components of our product. The app allowed users to track the purification process in real-time, providing information on the types of toxins removed and the overall quality of the water.
 
 At the heart of our design philosophy was a commitment to prioritizing the user’s needs and preferences. Through extensive user testing and feedback gathering, we iteratively refined our product to ensure that it met the needs of our target audience. We considered factors such as ergonomics, accessibility, and aesthetics to create a product that resonated with users on both a functional and emotional level.
@@ -87,24 +90,24 @@ The project commenced with the formation of teams. We brainstormed ideas on how 
 
 One of the key milestones in our project was the creation of wireframes using Figma. Collaborating in real-time on the Figma platform allowed us to iterate quickly and incorporate feedback from both our team members and our instructor. We carefully crafted each screen, paying attention to layout, typography, color schemes, and interactive elements to ensure a cohesive and user-friendly design.
 
-![Wireframe](URL)
-![Main Issues](URL)
+![TMS Wireframe](URL)
+![TMS Main Issues](URL)
 
 Signifiers played a significant role in guiding users through the website. We introduced clear and intuitive icons and labels to indicate different functionalities, making it easier for users to understand and navigate the interface. Additionally, we paid attention to mapping, ensuring that the website’s structure and organization followed logical patterns that users could easily follow.
 
-![Description Section](URL)
+![TMS Description Section](URL)
 
 Throughout the redesign process, we remained vigilant about addressing slips, or errors, that could occur during user interactions. We conducted usability testing on our wireframes to identify any potential usability issues and iteratively refined our designs to minimize friction points and enhance the overall user experience.
 
-![Browse Courses](URL)
+![TMS Browse Courses](URL)
 
 We began applying UX principles to our redesign strategy. Visibility emerged as a crucial aspect, and we focused on ensuring that important information was prominently displayed and easily accessible. We revamped the layout of the website, placing key features such as course search and schedule viewing at the forefront and centered.
 
-![Search Courses](URL)
+![TMS Search Courses](URL)
 
 As the project neared its conclusion, we prepared to present our redesigned wireframes to the class. We articulated our design decisions, explaining how we had applied UX principles to address the identified pain points and improve the overall usability of the Term Master Schedule website. The feedback we received from our classmates and instructor was invaluable, providing us with fresh perspectives and insights that further refined our designs.
 
-![Altered Wireframes](URL)
+![TMS Altered Wireframes](URL)
 
 The redesign of the Drexel Term Master Schedule website was a challenging yet rewarding endeavor that allowed us to apply theoretical concepts learned in our HCI class to a real-world problem. By prioritizing UX principles such as visibility, signifiers, mapping, and slips, we were able to create a more user-friendly interface that better served the needs of the Drexel University community. This project underscored the importance of collaboration, research, and iterative design in creating effective user experiences, and it provided us with valuable skills and experiences that will undoubtedly benefit us in our future endeavors in the field of human-computer interaction.
 
@@ -223,13 +226,12 @@ The redesign of the Drexel Term Master Schedule website was a challenging yet re
 
 # Resume 
 
-Riley Mitchell
+## Riley Mitchell
 
 - **Phone**: 484-757-9435
 - **Email**: [rileymitch617@gmail.com](mailto:rileymitch617@gmail.com)
 - **Location**: Malvern, PA
 
----
 
 ### Education
 
@@ -238,12 +240,11 @@ Bachelor of Science in User Experience & Interaction Design | Expected 06/2028
 - A.J. Drexel Scholarship (2023-Present), Drexel Grant (2023-Present)  
 - Cumulative GPA: 3.8
 
----
 
 ## Professional Experience
 
 ### Haverford College | Haverford, PA  
-###### **Server** | 05/2022 - Present  
+**Server** | 05/2022 - Present  
 *On-Call Catering Server*
 - Deliver outstanding service at Haverford College events, ensuring guest satisfaction and catering standards.
 - Efficiently set up and dismantle event spaces, arranging tables, chairs, and décor.
@@ -258,7 +259,7 @@ Bachelor of Science in User Experience & Interaction Design | Expected 06/2028
 - Maintain cleanliness and organization in dining areas, including clearing tables, wiping surfaces, and sanitizing utensils.
 - Collaborate with kitchen staff and other servers to ensure timely delivery of food and efficient operation of the dining center.
 
-##### Echo Lake-SageLife Senior Living | Malvern, PA  
+### Echo Lake-SageLife Senior Living | Malvern, PA  
 **Dining Room Server** | 07/2021 - Present  
 - Demonstrated proficiency in executing breakfast, lunch, and dinner service with precision and attention to detail.
 - Skilled in accommodating residents' diverse dietary requirements and preferences, ensuring satisfaction and well-being.
@@ -266,21 +267,25 @@ Bachelor of Science in User Experience & Interaction Design | Expected 06/2028
 - Experienced in working with elderly residents with various medical ailments, demonstrating empathy, patience, and sensitivity in meeting their needs.
 - Committed to upholding the highest standards of service excellence and resident satisfaction, contributing to the overall success of the dining program.
 
----
 
-#### Skills
+## Skills
 
 - Adobe Photoshop
 - Adobe Illustrator
 - Adobe After Effects
 - Adobe Animate
+- Adobe Media Encoder
+- Adobe Bridge
 - Microsoft Word
 - Microsoft PowerPoint
 - Figma
+- Jitter
+- CapCut
+- Slicer for Fusion
+- Arduino Uno
 
----
 
-#### Relevant Coursework
+## Relevant Coursework
 
 - User Interface Design I, II
 - Intro to Human-Computer Interaction
@@ -291,9 +296,8 @@ Bachelor of Science in User Experience & Interaction Design | Expected 06/2028
 - Overview of Digital Media
 - Mathematical Foundations for Design
 
----
 
-#### Activities
+## Activities
 
 - Member of National Honors Society (2021-2023)
 - Member of National French Honors Society (2021-2023)
