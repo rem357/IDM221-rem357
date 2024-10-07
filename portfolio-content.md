@@ -27,13 +27,14 @@ As someone new to the realm of User Experience and Interface Design (UXID), I em
 
 At the onset of the project, I delved into comprehensive research to understand the existing user experience of The Met Philadelphia website. Through user interviews, surveys, and heuristic evaluations, I uncovered valuable insights into the pain points and preferences of the website’s visitors. Common grievances such as navigation difficulties, inconsistent design elements, and lack of cohesive theme emerged as key areas for improvement.
 
-![Image 1: Home Page Design](URL)
+![Image 1: Mobile Home Page Design](https://github.com/rem357/idm221-rem357/blob/main/cs%201/mobile%20met.png?raw=true
+)
 
-![Image 2: Upcoming Events Page Layout](URL)
+![Image 2: Mobile Upcoming Events Page ](https://github.com/rem357/idm221-rem357/blob/main/cs%201/mobile%20met%202.png?raw=true)
 
-![Image 3: Mobile Flow](URL)
+![Image 3: Mobile Hamburger Bar](https://github.com/rem357/idm221-rem357/blob/main/cs%201/mobile%20met%203.png?raw=true)
 
-![Image 4: Atomic Design](URL)
+![Image 4: Desktop Design](https://github.com/rem357/idm221-rem357/blob/main/cs%201/desktop%20met.png?raw=true)
 
 Armed with user insights, I embarked on the design ideation phase, where I envisioned a revamped website that would not only address existing issues but also reflect the vibrant spirit of The Met Philadelphia. Drawing inspiration from the venue’s rich history and iconic architecture, I crafted a cohesive theme centered around elegance, accessibility, and user engagement.
 
