@@ -6,7 +6,7 @@ Welcome to my portfolio! I’m a college student who writes about and documents 
 
 # About Me
 
-![.](https://github.com/rem357/idm221-rem357/blob/main/about%20me%20pfp.JPG?raw=true)
+![picture of me](https://github.com/rem357/idm221-rem357/blob/main/about%20me/about%20me%20pfp.JPG?raw=true)
 
 Hello there, I’m Riley, a curently a sophomore at Drexel University majoring in User Experience and Interaction Design and on a 5 year track. I currently live on campus in the city of Philadelphia, but I am originally from a suburb of Philly, Malvern, PA. On campus, I am an active member of the Alpaha Sigma Alpha sorority. I grew up in a very busy household with three brothers and even more pets: two dogs (Koda and Marigold) and two cats (Mango and Vail). 
 
@@ -100,25 +100,27 @@ The project commenced with the formation of teams. We brainstormed ideas on how 
 
 One of the key milestones in our project was the creation of wireframes using Figma. Collaborating in real-time on the Figma platform allowed us to iterate quickly and incorporate feedback from both our team members and our instructor. We carefully crafted each screen, paying attention to layout, typography, color schemes, and interactive elements to ensure a cohesive and user-friendly design.
 
-![TMS Wireframe](URL)
+![TMS Website](https://github.com/rem357/idm221-rem357/blob/main/cs%203/original%20TMS%20website.png?raw=true)
 
-![TMS Main Issues](URL)
+![TMS Wireframe]( https://github.com/rem357/idm221-rem357/blob/main/cs%203/before%20wireframes.png?raw=true)
+
+![TMS Main Issues](https://github.com/rem357/idm221-rem357/blob/main/cs%203/main%20issues%20TMS.png?raw=true)
 
 Signifiers played a significant role in guiding users through the website. We introduced clear and intuitive icons and labels to indicate different functionalities, making it easier for users to understand and navigate the interface. Additionally, we paid attention to mapping, ensuring that the website’s structure and organization followed logical patterns that users could easily follow.
 
-![TMS Description Section](URL)
+![TMS Description Section](https://github.com/rem357/idm221-rem357/blob/main/cs%203/TMS%20description%20section.png?raw=true)
 
 Throughout the redesign process, we remained vigilant about addressing slips, or errors, that could occur during user interactions. We conducted usability testing on our wireframes to identify any potential usability issues and iteratively refined our designs to minimize friction points and enhance the overall user experience.
 
-![TMS Browse Courses](URL)
+![TMS Browse Courses](https://github.com/rem357/idm221-rem357/blob/main/cs%203/TMS%20browse%20courses.png?raw=true)
 
 We began applying UX principles to our redesign strategy. Visibility emerged as a crucial aspect, and we focused on ensuring that important information was prominently displayed and easily accessible. We revamped the layout of the website, placing key features such as course search and schedule viewing at the forefront and centered.
 
-![TMS Search Courses](URL)
+![TMS Search Courses](https://github.com/rem357/idm221-rem357/blob/main/cs%203/TMS%20search%20courses.png?raw=true)
 
 As the project neared its conclusion, we prepared to present our redesigned wireframes to the class. We articulated our design decisions, explaining how we had applied UX principles to address the identified pain points and improve the overall usability of the Term Master Schedule website. The feedback we received from our classmates and instructor was invaluable, providing us with fresh perspectives and insights that further refined our designs.
 
-![TMS Altered Wireframes](URL)
+![TMS Altered Wireframes](https://github.com/rem357/idm221-rem357/blob/main/cs%203/altered%20wireframes.png?raw=true)
 
 The redesign of the Drexel Term Master Schedule website was a challenging yet rewarding endeavor that allowed us to apply theoretical concepts learned in our HCI class to a real-world problem. By prioritizing UX principles such as visibility, signifiers, mapping, and slips, we were able to create a more user-friendly interface that better served the needs of the Drexel University community. This project underscored the importance of collaboration, research, and iterative design in creating effective user experiences, and it provided us with valuable skills and experiences that will undoubtedly benefit us in our future endeavors in the field of human-computer interaction.
 
