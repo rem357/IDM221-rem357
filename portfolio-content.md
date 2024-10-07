@@ -111,6 +111,101 @@ As the project neared its conclusion, we prepared to present our redesigned wire
 
 The redesign of the Drexel Term Master Schedule website was a challenging yet rewarding endeavor that allowed us to apply theoretical concepts learned in our HCI class to a real-world problem. By prioritizing UX principles such as visibility, signifiers, mapping, and slips, we were able to create a more user-friendly interface that better served the needs of the Drexel University community. This project underscored the importance of collaboration, research, and iterative design in creating effective user experiences, and it provided us with valuable skills and experiences that will undoubtedly benefit us in our future endeavors in the field of human-computer interaction.
 
+# CS 4: The Reward Vest – A Product Design for The Punisher
+
+
+
+In my product design class, i was tasked with designing a practical product that would help enhance the everyday life of a superhero. I was assigned the Punisher and after doing a plethora of research on his character, i created The Reward Vest. The Reward Vest was designed with one objective in mind: to enhance the combat effectiveness and survival capabilities of the Marvel character, the Punisher. Known for his brutal and relentless approach to justice, the Punisher operates outside the law, exposing himself to life-threatening situations. This vest concept aims to address his mortality and vulnerabilities, using innovative technology and carefully selected materials to support his unique crime-fighting style.
+
+---
+
+#### Background on the Punisher
+
+The Punisher, also known as Frank Castle, is a former Marine who turned to vigilantism following the tragic murder of his family. Although a skilled combatant with a deep understanding of military tactics, his lack of superhuman abilities and emotional trauma often place him at a disadvantage in the face of deadly enemies. Castle's strict moral code, resilience, and unwavering focus drive him to continue his mission despite his vulnerabilities.
+
+**Challenges he faces:**
+- Vulnerability to severe injuries and mortality.
+- Limited endurance due to his lack of superhuman strength.
+- Psychological trauma and emotional destabilization.
+- A constant need to be prepared for unpredictable, dangerous situations.
+
+---
+
+#### Product Goal
+
+The Reward Vest was designed to sustain the Punisher's life in critical moments, mitigate his weaknesses, and amplify his strengths. This wearable technology leverages advanced materials, AI, and nanotechnology, all while aligning with his gritty, tactical aesthetic. The product is designed to be discreet, lightweight, and easy to deploy in high-stakes scenarios.
+
+---
+
+#### Key Design Elements
+
+##### 1. Nanotech Deployment Necklace
+
+- **Description**: The vest is stored within a military-style necklace, activated by voice recognition or thought command, transforming into the vest and encapsulating Castle’s torso.
+- **Components**:
+  - **Military Dog Tag**: Embedded with a tracking feature, a practical addition reflecting his military background.
+  - **Skull Pendant Locket**: A locket with a picture of his family, adding sentimental value. This pendant can activate the vest when pressed for five seconds.
+
+##### 2. Vest Composition
+
+- **Material**: Constructed from Dyneema, a high-strength, lightweight synthetic fiber known for durability and resistance to environmental damage. The material provides optimal protection without hindering movement, essential for Castle’s dynamic combat style.
+
+##### 3. Front and Back Functionality
+
+- **Front**:
+  - **Defibrillator Skull Symbol**: Embedded in the large skull symbol is a defibrillator to revive him if his heart stops, as well as a vitals monitoring system.
+  - **AI-Enhanced Shoulder Straps**: Equipped with an interface controlled by AI that can respond to verbal commands, handle logistical needs, and operate other high-tech features.
+  - **Storage Compartments**: Hidden, tightly sealed pockets designed to store weaponry and tools, enhancing his preparedness.
+
+- **Back**:
+  - **Medical Injection System**: Provides essential medication and neurotransmitters directly into his spine. This automatic or manual system helps Castle recover quickly and maintain focus and energy during intense battles.
+  - **Injected Substances**:
+    - **Adrenaline**: Boosts responsiveness to stress and danger.
+    - **Serotonin**: Helps with mood regulation, appetite, and sleep.
+    - **Dopamine**: Enhances motivation, attention, and body regulation.
+    - **Norepinephrine**: Increases alertness and focus.
+    - **Benzodiazepines**: Reduces anxiety and promotes calmness.
+
+##### 4. AI and Communication Interface
+
+- **Description**: An interface positioned behind the ear for discreet communication with the AI system, giving Castle access to real-time feedback and assistance.
+- **Capabilities**:
+  - Provides situational analysis and tactical advice.
+  - Offers medical monitoring and adjustments.
+  - Acts as an operator, performing tasks like activating nanotech for wound care.
+
+---
+
+### How It Works
+
+
+The necklace serves as the central hub, housing nanotechnology that can assemble the vest on command. When triggered by a voice or thought command, the nanotechnology within the necklace deploys across his torso and body, adapting to the Punisher’s needs.
+
+
+In addition to forming the vest, the nanotechnology can disperse over Castle’s body to heal wounds, clean dirt, and remove blood. This healing feature, combined with the vest’s material strength, provides Castle with an almost regenerative capability, essential for extended combat.
+
+
+The Reward Vest offers comprehensive protection, amplified by the skull-symbol defibrillator, hidden weapon compartments, and medication distribution. The AI interface allows him to manage these features in real-time, giving him a tactical edge in unpredictable scenarios.
+
+---
+
+#### Inclusion Nanotechnology
+
+Inspired by the concept of nanotechnology introduced in the Marvel Cinamatic Universe, the Reward Vest utilizes Stark-inspired nanites that assemble on Castle’s body as needed. Stark’s technology allows for quick reconfiguration based on voice commands, providing adaptability in high-risk situations. This integration allows Castle to leverage Iron Man-level tech without sacrificing his signature stealth and simplicity.
+
+---
+
+#### Why This Design Works
+
+The Reward Vest supports the Punisher’s mission by reinforcing his strengths and compensating for his lack of superhuman abilities. It is a lightweight, durable solution designed with user-centered elements, optimized for the Punisher’s high-intensity lifestyle.
+
+The Reward Vest addresses the Punisher’s core challenge: constant exposure to life-threatening danger. It provides medical, tactical, and survival support in a simple, intuitive design that aligns with his rugged style and doesn’t require extra effort to operate. By focusing on his needs, the vest extends his endurance and enhances his capability, enabling him to keep fighting without fear of physical limitation.
+
+---
+
+This case study highlights the Reward Vest as a seamless integration of advanced technology tailored for a character who values functionality, efficiency, and minimalism. It is designed to keep the Punisher alive and operational, aligning with his relentless pursuit of justice.
+
+
 ---
 
 # Past Projects/Work
