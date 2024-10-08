@@ -265,31 +265,33 @@ This case study highlights the Reward Vest as a seamless integration of advanced
 
 ## PHTO-110
 
-![photo 1 ](URL)
+![photo 1 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/DE1_Mitchell_4.jpg?raw=true)
 
-![photo 2 ](URL)
+![photo 2 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/DE2_Mitchell_5.jpg?raw=true)
 
-![photo 3 ](URL)
+![photo 3 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/DE2_Mitchell_6.jpg?raw=true)
 
-![photo 4 ](URL)
+![photo 4 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/IMG_7994.png?raw=true)
 
-![photo 5 ](URL)
+![photo 5 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/IMG_8003.png?raw=true)
 
-![photo 6 ](URL)
+![photo 6 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/IMG_8086.png?raw=true)
 
-![photo 7 ](URL)
+![photo 7 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/IMG_8361.png?raw=true)
 
-![photo 8 ](URL)
+![photo 8 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/PE1_Mitchell_1Edited.jpg?raw=true)
 
-![photo 9 ](URL)
+![photo 9 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/PE1_Mitchell_2.jpg?raw=true)
 
-![photo 10 ](URL)
+![photo 10 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/PE1_Mitchell_3.jpg?raw=true)
 
-![photo 11 ](URL)
+![photo 11 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/image%20four.png?raw=true)
 
-![photo 12 ](URL)
+![photo 12 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/image%20one_.png?raw=true)
 
-![photo 13 ](URL)
+![photo 13 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/image%20three.png?raw=true)
+
+![photo 13 ](https://github.com/rem357/idm221-rem357/blob/main/PHOTO/image%20two.png?raw=true)
 
 ---
 
