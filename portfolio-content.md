@@ -225,7 +225,7 @@ This case study highlights the Reward Vest as a seamless integration of advanced
 
 ## VSST-108, 109, 110
 
-![Low Poly Portrait Using Vector Triangles](URL)
+![Low Poly Portrait Using Vector Triangles](https://github.com/rem357/idm221-rem357/blob/main/VSST/Low%20Poly%20Portrait%20Using%20Vector%20Triangles.jpg?raw=true)
 
 ![Hand Painted Color Wheel](URL)
 
@@ -237,7 +237,7 @@ This case study highlights the Reward Vest as a seamless integration of advanced
 
 ![Transparency in Colors Shown Through Animation](URL)
 
-![Value Translation](URL)
+![Value Translation](https://github.com/rem357/idm221-rem357/blob/main/VSST/2023_Mitchell_R_P03-min%20(1).png?raw=true)
 
 ![Expressive Line](URL)
 
@@ -251,15 +251,17 @@ This case study highlights the Reward Vest as a seamless integration of advanced
 
 ## WEST-107
 
-![Golden Lion](URL)
+![Golden Lion](https://github.com/rem357/idm221-rem357/blob/main/WEST%20107/golden%20lion.png?raw=true)
 
-![Find, Make, Scan](URL)
+![Find, Make, Scan](https://github.com/rem357/idm221-rem357/blob/main/WEST%20107/find,%20make,%20scan.png?raw=true)
 
-![Platonic Shapes](URL)
+![Platonic Shapes](https://github.com/rem357/idm221-rem357/blob/main/WEST%20107/platonic%20shapes.png?raw=true)
 
-![Platonic Shapes 2](URL)
+![Platonic Shapes 2](https://github.com/rem357/idm221-rem357/blob/main/WEST%20107/platonic%20shapes%20pt%202.png?raw=true)
 
-![Flat to Fat](URL)
+![Flat to Fat](https://github.com/rem357/idm221-rem357/blob/main/WEST%20107/flat%20to%20fat.png?raw=true)
+
+![Acrylic Phone Holder](https://github.com/rem357/idm221-rem357/blob/main/WEST%20107/acrylic%20phone%20holder.png?raw=true)
 
 ---
 
