@@ -9,8 +9,8 @@ styles.css
   
   body {
     font-family: 'B612', sans-serif;
-    color: #333;
-    background-color: #f8f8f8;
+    color: #E43D12;
+    background-color: #EBE9E1;
     line-height: 1.6;
   }
   
@@ -67,14 +67,14 @@ styles.css
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #E43D12;
+    color: #EBE9E1;
     text-align: center;
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #E43D12;
+    color: #EBE9E1;
     text-align: center;
     font-size: 0.8em;
   }
@@ -110,8 +110,8 @@ styles.css
   
   /* Buttons */
   button {
-    background-color: #333;
-    color: #fff;
+    background-color: #E43D12;
+    color: #EBE9E1;
     padding: 0.5em 1em;
     border: none;
     border-radius: 4px;
@@ -134,8 +134,8 @@ styles.css
   
   .menu {
     display: none;
-    background: #444;
-    color: white;
+    background: #E43D12;
+    color: #EBE9E1;
     padding: 1em;
   }
   
@@ -149,7 +149,7 @@ styles.css
   }
   
   .menu ul li a {
-    color: #fff;
+    color: #EBE9E1;
   }
   
   /* Utility Classes */
