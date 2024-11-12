@@ -1,2 +1,170 @@
 styles.css
 
+/* Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'B612', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+  }
+  
+  /* Typography */
+  h1 {
+    font-family: 'Amarante', sans-serif;
+    font-size: 38px; /* H1 */
+    margin: 1em 0;
+  }
+  
+  h2 {
+    font-family: 'Amarante', sans-serif;
+    font-size: 32px; /* H2 */
+    margin: 0.8em 0;
+  }
+  
+  h3 {
+    font-family: 'Amarante', sans-serif;
+    font-size: 24px; /* H3 */
+    margin: 0.6em 0;
+  }
+  
+  h4 {
+    font-family: 'Amarante', sans-serif;
+    font-size: 18px; /* H4 */
+    margin: 0.4em 0;
+  }
+  
+  h5, h6 {
+    font-family: 'B612', sans-serif;
+    font-size: 14px; /* H5 and H6 */
+    margin: 0.2em 0;
+  }
+  
+  p, li {
+    font-size: 10pt; /* Body text */
+    margin: 1em 0;
+  }
+  
+  /* Links */
+  a {
+    color: #E43D12;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFA2B6;
+  }
+  
+  /* Layout Sections */
+  header, nav, main, footer {
+    padding: 1em;
+    margin: 1em 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+  }
+  
+  /* Lists */
+  ul, ol {
+    padding-left: 1.5em;
+  }
+  
+  ul li {
+    list-style-type: disc;
+  }
+  
+  ol li {
+    list-style-type: decimal;
+  }
+  
+  /* Box Style */
+  .box {
+    background-color: #FFF;
+    padding: 15px;
+    border: 1px solid #D6536D;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Responsive Menu */
+  .menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  #menu-toggle:checked + .menu {
+    display: block;
+  }
+  
+  .menu {
+    display: none;
+    background: #444;
+    color: white;
+    padding: 1em;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .menu ul li {
+    padding: 0.5em 0;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
+    .menu {
+      display: block;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
