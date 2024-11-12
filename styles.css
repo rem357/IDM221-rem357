@@ -23,12 +23,12 @@ styles.css
   
   h2 {
     font-family: 'Amarante', sans-serif;
-    font-size: 32px; /* H2 */
-    margin: 0.8em 0;
+    font-size: 24px; /* H2 */
+    margin: 0.6em 0;
   }
   
   h3 {
-    font-family: 'Amarante', sans-serif;
+    font-family: 'Amarante', sans-serif;  
     font-size: 24px; /* H3 */
     margin: 0.6em 0;
   }
@@ -119,7 +119,7 @@ styles.css
   }
   
   button:hover {
-    background-color: #555;
+    background-color: #E43D12;
   }
   
   /* Responsive Menu */
