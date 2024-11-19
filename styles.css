@@ -172,72 +172,101 @@ styles.css
 /* ----------------------------------------------------------------------------------------------------------------------- */
     /* Drop Down Selection */
   
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #f0f0f0;
-    }
-    
-    header {
-      background-color: #E43D12;
-      color: #EBE9E1;
-      padding: 10px;
-      width: 100%;
-      text-align: center;
-    }
-    
-    nav a {
-      color: #EBE9E1;
-      padding: 10px;
-      text-decoration: none;
-    }
-    
-    h1 {
-      margin: 0;
-      padding: 20px 0;
-    }
-    
-    /* Dropdown styles */
-    .dropdown-container {
-      margin: 20px 0;
-      width: 80%;
-      max-width: 800px;
-    }
-    
-    .dropdown-button {
-      background-color: #E43D12;
-      color: #EBE9E1;
-      padding: 15px;
-      font-size: 18px;
-      width: 100%;
-      text-align: left;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-      outline: none;
-    }
-    
-    .dropdown-button:hover {
-      background-color: #E43D12;
-    }
-    
-    .dropdown-content {
-      display: none; /* Hidden */
-      padding: 15px;
-      background-color: #EBE9E1;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      margin-top: 10px;
-    }
-    
-    /* Show the dropdown content when the h2 is clicked */
-    .dropdown-button:focus + .dropdown-content,
-    .dropdown-button:hover + .dropdown-content {
-      display: block;
-    }
+ /* General Styles */
+body {
+  font-family: 'B612', sans-serif; /* Main font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure full-screen height */
+  background-color: #f7f7f7; /* Neutral background */
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #E43D12; /* Unified header color */
+  color: #EBE9E1; /* Text color for contrast */
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #EBE9E1; /* Header link color */
+  padding: 10px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Amarante', cursive; /* Decorative font for headings */
+  font-size: 38px; /* Unified font size */
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Center Content */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; /* Ensure content fits on smaller screens */
+  max-width: 800px;
+}
+
+/* Dropdown Styles */
+.dropdown-container {
+  margin: 20px 0;
+  width: 90%; /* Responsive width */
+  max-width: 800px; /* Limit width for larger screens */
+}
+
+.dropdown-button {
+  font-family: 'Amarante', cursive; /* Decorative font for buttons */
+  font-size: 32px; /* Unified font size for dropdown buttons */
+  background-color: #E43D12; /* Button background color */
+  color: #EBE9E1; /* Button text color */
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  outline: none;
+}
+
+.dropdown-button:hover {
+  background-color: #D0360E; /* Darker hover effect */
+  transform: scale(1.02); /* Subtle hover feedback */
+}
+
+.dropdown-toggle {
+  display: none; /* Hide the checkbox for toggle behavior */
+}
+
+/* Show content when the checkbox is checked */
+.dropdown-toggle:checked + .dropdown-button + .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none; /* Hidden by default */
+  padding: 15px;
+  background-color: #EBE9E1; /* Light background for dropdown */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  text-align: left; /* Align text inside dropdown */
+}
+
+.dropdown-content p {
+  font-size: 18px; /* Unified body text size */
+  line-height: 1.6;
+  margin: 5px 0;
+}
