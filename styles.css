@@ -1,362 +1,262 @@
-styles.css
-/* ------------------------------------------------------------------------------------------------------------------------------------ */
-/* Normalize */
+
+/* reset and normalize on all browsers */
 * {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'B612', sans-serif;
-    color: #E43D12;
-    background-color: #EBE9E1;
-    line-height: 1.6;
-  }
-  /* ----------------------------------------------------------------------------------------------------------------------------------- */
-  /* Typography */
-  h1 {
-    font-family: 'Amarante', sans-serif;
-    font-size: 38px; /* H1 */
-    margin: 1em 0;
-  }
-  
-  h2 {
-    font-family: 'Amarante', sans-serif;
-    font-size: 24px; /* H2 */
-    margin: 0.6em 0;
-  }
-  
-  h3 {
-    font-family: 'Amarante', sans-serif;  
-    font-size: 24px; /* H3 */
-    margin: 0.6em 0;
-  }
-  
-  h4 {
-    font-family: 'Amarante', sans-serif;
-    font-size: 18px; /* H4 */
-    margin: 0.4em 0;
-  }
-  
-  h5, h6 {
-    font-family: 'B612', sans-serif;
-    font-size: 14px; /* H5 and H6 */
-    margin: 0.2em 0;
-  }
-  
-  p, li {
-    font-size: 10pt; /* Body text */
-    margin: 1em 0;
-  }
-
-  /* ---------------------------------------------------------------------------------------------------------------------------------- */
-  /* Links */
-  a {
-    color: #EBE9E1;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #FFA2B6;
-  }
-  /* ----------------------------------------------------------------------------------------------------------------------------------- */
-  /* Layout Sections */
-  header, nav, main, footer {
-    padding: 1em;
-    margin: 1em 0;
-  }
-  
-  header {
-    background-color: #E43D12;
-    color: #EBE9E1;
-    text-align: center;
-    margin: 0;
-  padding: 0;
-  }
-  
-  footer {
-    background-color: #E43D12;
-    color: #EBE9E1;
-    text-align: center;
-    font-size: 0.8em;
-  }
-  /* ----------------------------------------------------------------------------------------------------------------------------------- */
-  /* Lists */
-  ul, ol {
-    padding-left: 1.5em;
-  }
-  
-  ul li {
-    list-style-type: disc;
-  }
-  
-  ol li {
-    list-style-type: decimal;
-  }
-  /* ----------------------------------------------------------------------------------------------------------------------------------- */
-  /* Box Style */
-  .box {
-    background-color: #FFF;
-    padding: 15px;
-    border: 1px solid #D6536D;
-    border-radius: 8px;
-    margin: 10px 0;
-  }
-  /* ------------------------------------------------------------------------------------------------------------------------------------- */
-  /* Images */
-  img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-  /* -------------------------------------------------------------------------------------------------------------------------------------- */
-  /* Buttons */
-  button {
-    background-color: #E43D12;
-    color: #EBE9E1;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #E43D12;
-  }
-  /* -------------------------------------------------------------------------------------------------------------------------------------- */
-  /* Responsive Menu */
-  .menu-icon {
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  
-  #menu-toggle:checked + .menu {
-    display: block;
-  }
-  
-  .menu {
-    display: none;
-    background: #E43D12;
-    color: #EBE9E1;
-    padding: 1em;
-  }
-  
-  .menu ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .menu ul li {
-    padding: 0.5em 0;
-  }
-  
-  .menu ul li a {
-    color: #EBE9E1;
-  }
-  /* ------------------------------------------------------------------------------------------------------------------------------------- */
-  /* Utility Classes */
-  .text-center {
-    text-align: center;
-  }
-  /* -------------------------------------------------------------------------------------------------------------------------------------- */
-  /* Media Query for Small Screens */
-  @media (max-width: 768px) {
-    .menu {
-      display: block;
-    }
-  
-    nav ul {
-      flex-direction: column;
-    }
-  }
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------- */
-    /* Drop Down Selection */
-  
- /* General Styles */
-body {
-  font-family: 'B612', sans-serif; /* Main font */
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh; /* Ensure full-screen height */
-  background-color: #f7f7f7; /* Neutral background */
-  color: #333;
-  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'B612', sans-serif; /* main body font */
+  color: #E43D12; /* primary text color */
+  background-color: #EBE9E1; /* background color */
+  line-height: 1.6; /* consistent line spacing */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* typography */
+h1 {
+  font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
+  font-size: 38px; /* large headings */
+  margin: 1em 0;
+}
+
+h2, h3 {
+  font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
+  font-size: 24px; /* medium headings */
+  margin: 0.6em 0;
+}
+
+h4 {
+  font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
+  font-size: 18px; /* small headings */
+  margin: 0.4em 0;
+}
+
+h5, h6 {
+  font-family: 'B612', sans-serif, Arial, Helvetica, 'Times New Roman';
+  font-size: 14px; /* very small headings */
+  margin: 0.2em 0;
+}
+
+p, li {
+  font-size: 10pt; /* standard body text */
+  margin: 1em 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* links */
+a {
+  color: #EBE9E1; /* link color */
+  text-decoration: none; /* removes underline */
+}
+
+a:hover {
+  color: #FFA2B6; /* hover color for links */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* layout sections */
+header, nav, main, footer {
+  padding: 1em;
+  margin: 1em 0;
 }
 
 header {
-  background-color: #E43D12; /* Unified header color */
-  color: #EBE9E1; /* Text color for contrast */
-  padding: 10px;
-  width: 100%;
+  background-color: #E43D12; /* header background */
+  color: #EBE9E1; /* header text color */
+  text-align: center; /* center align text */
+}
+
+footer {
+  background-color: #E43D12;
+  color: #EBE9E1;
   text-align: center;
-  margin-bottom: 20px;
+  font-size: 0.8em; /* small footer text */
 }
 
-nav a {
-  color: #EBE9E1; /* Header link color */
-  padding: 10px;
-  text-decoration: none;
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* lists */
+ul, ol {
+  padding-left: 1.5em; /* add padding for list indentation */
 }
 
-h1 {
-  font-family: 'Amarante', cursive; /* Decorative font for headings */
-  font-size: 38px; /* Unified font size */
-  margin: 0;
-  padding: 20px 0;
+ul li {
+  list-style-type: none; /* no bullets for unordered lists */
 }
 
-/* Center Content */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%; /* Ensure content fits on smaller screens */
+ol li {
+  list-style-type: decimal; /* numbers for ordered lists */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* box style */
+.box {
+  background-color: #FFF;
+  padding: 15px;
+  border: 1px solid #D6536D;
+  border-radius: 8px; /* rounded corners */
+  margin: 10px 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* images */
+img {
+  max-width: 100%; /* images will scale within their container */
+  height: auto;
+  display: block;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* buttons */
+button {
+  background-color: #E43D12;
+  color: #EBE9E1;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; /* pointer cursor for clickable buttons */
+}
+
+button:hover {
+  background-color: #C7360C; /* slightly darker red on hover */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* responsive hamburger menu */
+.menu-icon {
+  font-size: 2rem; /* large icon size */
+  cursor: pointer;
+}
+
+#menu-toggle:checked + .menu {
+  display: block; /* show menu when checked */
+}
+
+.menu {
+  display: none; /* hide menu by default */
+  background: #E43D12; /* background for menu */
+  color: #EBE9E1; /* text color */
+  padding: 1em;
+}
+
+.menu ul {
+  list-style-type: none; /* remove bullets for menu items */
+  padding-left: 0; /* remove default padding */
+}
+
+.menu ul li {
+  padding: 0.5em 0; /* add spacing between items */
+}
+
+.menu ul li a {
+  color: #EBE9E1; /* link color in the menu */
+}
+
+/* utility classes */
+.text-center {
+  text-align: center; /* center-align text */
+}
+
+/* media query for small screens */
+@media (max-width: 768px) {
+  .menu {
+    display: block; /* ensure menu is visible on small screens */
+  }
+
+  nav ul {
+    flex-direction: column; /* stack menu items vertically */
+  }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* past projects: dropdown selection */
+.dropdown-container {
+  margin: 20px 0;
+  width: 90%; /* responsive dropdown width */
   max-width: 800px;
 }
 
-/* Dropdown Styles */
-.dropdown-container {
-  margin: 20px 0;
-  width: 90%; /* Responsive width */
-  max-width: 800px; /* Limit width for larger screens */
-}
-
 .dropdown-button {
-  font-family: 'Amarante', cursive; /* Decorative font for buttons */
-  font-size: 32px; /* Unified font size for dropdown buttons */
-  background-color: #E43D12; /* Button background color */
-  color: #EBE9E1; /* Button text color */
+  font-family: 'Amarante', cursive;
+  font-size: 32px;
+  background-color: #E43D12;
+  color: #EBE9E1;
   padding: 15px;
-  width: 100%;
-  text-align: left;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s; /* smooth hover effects */
   outline: none;
 }
 
 .dropdown-button:hover {
-  background-color: #D0360E; /* Darker hover effect */
-  transform: scale(1.02); /* Subtle hover feedback */
+  background-color: #D0360E; /* darker hover background */
+  transform: scale(1.02); /* slight zoom effect on hover */
 }
 
 .dropdown-toggle {
-  display: none; /* Hide the checkbox for toggle behavior */
-}
-
-/* Show content when the checkbox is checked */
-.dropdown-toggle:checked + .dropdown-button + .dropdown-content {
-  display: block;
+  display: none; /* hide toggle input */
 }
 
 .dropdown-content {
-  display: none; /* Hidden by default */
+  display: none; /* hidden by default */
   padding: 15px;
-  background-color: #EBE9E1; /* Light background for dropdown */
+  background-color: #EBE9E1; /* light dropdown background */
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
-  text-align: left; /* Align text inside dropdown */
+  text-align: left;
 }
 
-.dropdown-content p {
-  font-size: 18px; /* Unified body text size */
-  line-height: 1.6;
-  margin: 5px 0;
+.dropdown-toggle:checked + .dropdown-button + .dropdown-content {
+  display: block; /* show dropdown when toggle is checked */
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* Menu */
+/* advanced menu styles */
 header {
   padding: 1rem;
   position: relative;
+}
 
-  label {
-    cursor: pointer;
-    height: 1.25rem;
-    position: fixed;
-    right: 1rem;
-    top: 1rem;
-    width: 1.625rem;
-    z-index: 1001;
-
-    span {
-      background-color: #EBE9E1;
-      border-radius: 2px;
-      display: block;
-      height: 3px;
-      position: absolute;
-      width: 100%;
-
-      transform-origin: left;
-
-      &:nth-child(1) {
-        top: 0;
-      }
-
-      &:nth-child(2) {
-        top: 0.5rem;
-      }
-
-      &:nth-child(3) {
-        top: 1rem;
-      }
-    }
-  }
+label {
+  cursor: pointer;
+  height: 1.25rem;
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  width: 1.625rem;
+  z-index: 1001; /* above menu content */
 }
 
 nav {
   background: #E43D12;
   height: 100vh;
-  width: 18.75rem;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 2rem;
-
-    li {
-      margin-bottom: 1rem;
-
-      a {
-        color: #EBE9E1;
-        text-decoration: none;
-      }
-    }
-  }
-
+  width: 18.75rem; /* menu width */
   position: fixed;
-  right: -500px;
+  right: -500px; /* initially hidden off-screen */
   top: 0;
   z-index: 1000;
 }
-/* ----------------------------------------------------------------------------------------------------------------------- */
-/* Show nav when checkbox is checked */
+
 .nav-toggle:checked ~ nav {
-  right: 0;
+  right: 0; /* slide menu into view when toggle is checked */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
   transform: rotate(45deg);
-  top: -2px; /* Fix */
+  top: -2px;
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
-  opacity: 0;
+  opacity: 0; /* hide x middle bar */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
   transform: rotate(-45deg);
-}
 }
