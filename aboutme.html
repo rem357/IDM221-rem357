@@ -5,6 +5,24 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Your Page Title</title>
    <link rel="stylesheet" href="styles.css"> 
+   
+   <style>
+      /* center image, make responsive */
+      .image-container {
+         display: flex; /* enable flexbox */
+         justify-content: center; /* horizontally center */
+         align-items: center; /* vertically center */
+         margin: 20px 0; /* add spacing around  image */
+      }
+
+      .responsive-image {
+         max-width: 100%; /* make responsive  */
+         max-height: 400px; /* restrict height */
+         height: auto; /* keep aspect ratio */
+         width: auto; /* keep aspect ratio */
+      }
+   </style>
+
 </head>
 
 <body>
@@ -34,17 +52,34 @@
   </header>
 
   <main>
-    <figure>
-      <img src="https://github.com/rem357/idm221-rem357/blob/main/about%20me/about%20me%20pfp.JPG?raw=true" alt="picture of me">
-    </figure>
+
+    <div class="image-container">
+      <img 
+         src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/about%20me%20compressed/about%20me%20pfp.JPG?raw=true" 
+         alt="picture of me" 
+         class="responsive-image">
+    </div>
     
     <p>Hello there, I’m Riley, currently a sophomore at Drexel University majoring in User Experience and Interaction Design and on a 5-year track. I live on campus in Philadelphia, but I’m originally from Malvern, PA. I’m an active member of the Alpha Sigma Alpha sorority.</p>
 
     <p>I grew up in a busy household with three brothers and four pets: two dogs (Koda and Marigold) and two cats (Mango and Vail).</p>
 
     <figure>
-      <img src="https://github.com/rem357/idm221-rem357/blob/main/about%20me/k+mg.jpeg?raw=true" alt="picture of dogs">
-      <img src="https://github.com/rem357/idm221-rem357/blob/main/about%20me/m+v.jpeg?raw=true" alt="picture of cats">
+
+      <div class="image-container">
+        <img 
+           src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/about%20me%20compressed/k+mg.jpeg?raw=true" 
+           alt="picture of dogs" 
+           class="responsive-image">
+      </div>
+
+    <div class="image-container">
+      <img 
+         src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/about%20me%20compressed/m+v.jpeg?raw=true" 
+         alt="picture of cats" 
+         class="responsive-image">
+    </div>
+
     </figure>
 
     <p>Growing up in a loving but chaotic household helped me develop skills to simplify and organize chaos in visually appealing ways. These qualities led me to UXID. In my free time, I enjoy concerts, music, baking, cooking, movies, and running.</p>
@@ -55,5 +90,4 @@
   <hr>
 
 </body>
-
 </html>
