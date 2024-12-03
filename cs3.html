@@ -5,7 +5,26 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Your Page Title</title>
    <link rel="stylesheet" href="styles.css"> 
+   
+   <style>
+      /* center image, make responsive */
+      .image-container {
+         display: flex; /* enable flexbox */
+         justify-content: center; /* horizontally center */
+         align-items: center; /* vertically center */
+         margin: 20px 0; /* add spacing around  image */
+      }
+
+      .responsive-image {
+         max-width: 100%; /* make responsive  */
+         max-height: 400px; /* restrict height */
+         height: auto; /* keep aspect ratio */
+         width: auto; /* keep aspect ratio */
+      }
+   </style>
+
 </head>
+
 
 <body>
   <header>
@@ -40,9 +59,12 @@
 
     <hr>
 
-    <figure>
-      <img src="https://github.com/rem357/idm221-rem357/blob/main/cs%204/Screenshot%202024-10-07%20at%2011.54.27%E2%80%AFAM.png?raw=true" alt="Reward Vest Design">
-    </figure>
+    <div class="image-container">
+      <img 
+         src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/CS3%20Compressed/Screenshot%202024-10-07%20at%2011.54.27%E2%80%AFAM.png?raw=true" 
+         alt="final-design" 
+         class="responsive-image">
+    </div>
 
     <p>The Punisher, also known as Frank Castle, is a former Marine who turned to vigilantism following the tragic murder of his family. Although a skilled combatant with a deep understanding of military tactics, his lack of superhuman abilities and emotional trauma often place him at a disadvantage in the face of deadly enemies. Castle's strict moral code, resilience, and unwavering focus drive him to continue his mission despite his vulnerabilities.</p>
 
@@ -56,15 +78,22 @@
 
     <hr>
 
-    <figure>
-      <img src="https://github.com/rem357/idm221-rem357/blob/main/cs%204/Screenshot%202024-10-07%20at%2011.55.17%E2%80%AFAM.png?raw=true" alt="Reward Vest Back">
-    </figure>
+    <div class="image-container">
+      <img 
+         src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/CS3%20Compressed/Screenshot%202024-10-07%20at%2011.55.17%E2%80%AFAM.png?raw=true" 
+         alt="design-statement" 
+         class="responsive-image">
+    </div>
+
 
     <p>The Reward Vest was designed to sustain the Punisher's life in critical moments, mitigate his weaknesses, and amplify his strengths. This wearable technology leverages advanced materials, AI, and nanotechnology, all while aligning with his gritty, tactical aesthetic. The product is designed to be discreet, lightweight, and easy to deploy in high-stakes scenarios.</p>
 
-    <figure>
-      <img src="https://github.com/rem357/idm221-rem357/blob/main/cs%204/Screenshot%202024-10-07%20at%2011.55.57%E2%80%AFAM.png?raw=true" alt="Reward Vest Front Design">
-    </figure>
+    <div class="image-container">
+      <img 
+         src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/CS3%20Compressed/Screenshot%202024-10-07%20at%2011.55.57%E2%80%AFAM.png?raw=true" 
+         alt="vest-breakdown" 
+         class="responsive-image">
+    </div>
 
     <h2>Components:</h2>
     <ul>
