@@ -166,18 +166,22 @@ img {
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* buttons */
-button {
-  background-color: #E43D12;
-  color: #EBE9E1;
-  padding: 0.5em 1em;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer; /* pointer cursor for clickable buttons */
+.download-button {
+  display: inline-block;
+  background-color: #E43D12; /* Button background color */
+  color: #EBE9E1; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
-button:hover {
-  background-color: #C7360C; /* slightly darker red on hover */
+.download-button:hover {
+  background-color: #D13210; /* Darker red on hover */
 }
+
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* responsive hamburger menu */
