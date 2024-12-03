@@ -84,7 +84,9 @@ header h1 {
   line-height: 100px; /* Match line-height to header height */
   text-align: center; /* Horizontal centering */
   font-size: 2rem; /* Adjust for visibility */
+  font-family: 'Amarante', cursive !important;  
 }
+
 
 
 footer {
