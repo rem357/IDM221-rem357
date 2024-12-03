@@ -10,40 +10,47 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'B612', sans-serif; /* main body font */
-  color: #E43D12; /* primary text color */
-  background-color: #EBE9E1; /* background color */
+  font-family: 'B612', sans-serif; /* main font */
+  color: #E43D12; /* main text color */
+  background-color: #EBE9E1; 
   line-height: 1.6; /* consistent line spacing */
+
+  /* center content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for centering */
+}
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* typography */
 h1 {
   font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 38px; /* large headings */
+  font-size: 38px; /* large  */
   margin: 1em 0;
 }
 
 h2, h3 {
   font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 24px; /* medium headings */
+  font-size: 24px; /* medium  */
   margin: 0.6em 0;
 }
 
 h4 {
   font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 18px; /* small headings */
+  font-size: 18px; /* small  */
   margin: 0.4em 0;
 }
 
 h5, h6 {
   font-family: 'B612', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 14px; /* very small headings */
+  font-size: 14px; /* very small  */
   margin: 0.2em 0;
 }
 
 p, li {
-  font-size: 10pt; /* standard body text */
+  font-size: 10pt; /*  body text */
   margin: 1em 0;
 }
 
@@ -54,28 +61,73 @@ a {
   text-decoration: none; /* removes underline */
 }
 
-a:hover {
-  color: #FFA2B6; /* hover color for links */
-}
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* layout sections */
 header, nav, main, footer {
-  padding: 1em;
   margin: 1em 0;
+  padding: 1rem; /* Add padding for spacing */
+  width: 100%; /* Make sure it spans the full width of the container */
+  box-sizing: border-box; /* Include padding in width calculations */
 }
 
 header {
-  background-color: #E43D12; /* header background */
-  color: #EBE9E1; /* header text color */
-  text-align: center; /* center align text */
+  background-color: #E43D12; /* Red background */
+  color: #EBE9E1; /* White text */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Add vertical padding */
+  min-height: 100px; /* Ensure a taller header */
+  box-sizing: border-box; /* Include padding in height calculation */
 }
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  line-height: 100px; /* Match line-height to header height */
+  text-align: center; /* Horizontal centering */
+  font-size: 2rem; /* Adjust for visibility */
+}
+
 
 footer {
   background-color: #E43D12;
   color: #EBE9E1;
   text-align: center;
   font-size: 0.8em; /* small footer text */
+}
+
+/* container */
+.container {
+  width: 100%;             
+  max-width: 400px;        
+  min-width: 320px;       
+  aspect-ratio: 9 / 16;     
+  background: white;       
+  border: 1px solid #ccc;   
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  overflow: auto;         
+}
+
+/* responsive text in container */
+.container h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.container p {
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* dimentions for desktop */
+@media (min-width: 768px) {
+  body {
+    justify-content: center; /* Center content for larger screens */
+  }
+
+  .container {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for desktop */
+  }
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
@@ -236,27 +288,45 @@ label {
 
 nav {
   background: #E43D12;
-  height: 100vh;
-  width: 18.75rem; /* menu width */
+  height: 36rem;
+  width: 20rem; /* menu width */
   position: fixed;
-  right: -500px; /* initially hidden off-screen */
+  left: -500px; /* initially hidden off-screen */
   top: 0;
   z-index: 1000;
 }
 
 .nav-toggle:checked ~ nav {
-  right: 0; /* slide menu into view when toggle is checked */
+  left: 0; /* slide menu into view when toggle is checked */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
   transform: rotate(45deg);
-  top: -2px;
+  top: 8px; /* Move down to intersect */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
-  opacity: 0; /* hide x middle bar */
+  opacity: 0; /* Hide the middle line */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
   transform: rotate(-45deg);
+  top: -8px; /* Move up to intersect */
+}
+
+.nav-toggle-label {
+  display: inline-block;
+  position: absolute;
+  top: 40px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  cursor: pointer;
+  z-index: 1001; /* Ensure it's above the header */
+}
+
+.nav-toggle-label span {
+  display: block;
+  width: 25px; /* Width of each line */
+  height: 3px; /* Thickness of each line */
+  background-color: #EBE9E1; /* Light color to contrast with the red header */
+  margin: 5px 0; /* Spacing between lines */
 }

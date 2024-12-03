@@ -3,9 +3,29 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Your Page Title</title>
+   <title>my portfolio</title>
    <link rel="stylesheet" href="styles.css"> 
+   
+   <style>
+      /* center image, make responsive */
+      .image-container {
+         display: flex; /* enable flexbox */
+         justify-content: center; /* horizontally center */
+         align-items: center; /* vertically center */
+         margin: 20px 0; /* add spacing around  image */
+      }
+
+      .responsive-image {
+         max-width: 100%; /* make responsive  */
+         max-height: 400px; /* restrict height */
+         height: auto; /* keep aspect ratio */
+         width: auto; /* keep aspect ratio */
+      }
+   </style>
+
 </head>
+
+<div class="container">
 
 <head>
   <meta charset="UTF-8" />
@@ -34,7 +54,7 @@
       </ul>
     </nav>
 
-    <h1>hello there</h1>
+    <h1>hello there!</h1>
 
   </header>
 </body>
@@ -45,12 +65,22 @@
   <title>My Portfolio</title>
 </head>
 
+<div class="image-container">
+  <img 
+     src="https://github.com/rem357/idm221-rem357/blob/main/compressed%20images/Image%20Compressor%207979.JPG?raw=true" 
+     alt="picture-of-me" 
+     class="responsive-image">
+</div>
+
   <main>
-    <p>Welcome to my portfolio! I’m a college student who writes about and documents her process and inspiration as a UXID major! Check out my UXID Case Studies and past work, or follow along to see more of me and my work.</p>
+    <p>Welcome to my portfolio! I’m a college student documenting her process and inspiration as a UXID major! Check out my UXID Case Studies and past work, or follow along to see more of me and my work.</p>
   </main>
+
 
   <hr>
 
 </body>
+
+</div>
 
 </html>
