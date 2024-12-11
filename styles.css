@@ -1,5 +1,5 @@
 
-/* reset and normalize on all browsers */
+/* reset on all browsers */
 * {
   margin: 0;
   padding: 0;
@@ -10,16 +10,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'B612', sans-serif; /* main font */
-  color: #E43D12; /* main text color */
+  font-family: 'B612', sans-serif; 
+  color: #E43D12; 
   background-color: #EBE9E1; 
-  line-height: 1.6; /* consistent line spacing */
+  line-height: 1.6; 
 
   /* center content */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full height for centering */
+  height: 100vh;
 }
 }
 
@@ -27,38 +27,70 @@ body {
 /* typography */
 h1 {
   font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 38px; /* large  */
+  font-size: 38px; /* large */
   margin: 1em 0;
 }
 
 h2, h3 {
   font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 24px; /* medium  */
+  font-size: 24px; /* medium */
   margin: 0.6em 0;
 }
 
 h4 {
   font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 18px; /* small  */
+  font-size: 18px; /* small */
   margin: 0.4em 0;
 }
 
 h5, h6 {
   font-family: 'B612', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 14px; /* very small  */
+  font-size: 14px; /* very small */
   margin: 0.2em 0;
 }
 
-p, li {
+main p, main li {
   font-size: 10pt; /*  body text */
   margin: 1em 0;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* NAVIGATION STYLES */
+nav {
+  display: flex; /* Enables Flexbox for centering */
+  justify-content: center; /* Centers the menu horizontally */
+  align-items: center; /* Centers the menu vertically */
+  height: 100vh; /* Makes the nav take up the full height of the viewport */
+  background-color: #E43D12; /* Red background */
+}
+
+nav ul {
+  font-size: 1.rem; /* Adjust font size for menu */
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  text-align: center; /* Center-align text */
+}
+
+nav ul li {
+  font-size: inherit; /* Inherit font size from parent */
+  margin: 1rem 0; /* Add spacing between menu items */
+}
+
+nav ul li a {
+  font-size: inherit; /* Ensure links inherit font size */
+  color: #EBE9E1; /* Menu link color */
+  text-decoration: none; /* Remove underline */
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* links */
 a {
-  color: #EBE9E1; /* link color */
-  text-decoration: none; /* removes underline */
+  color: #EBE9E1;
+  text-decoration: none; /* gets rid of underline */
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
@@ -182,47 +214,55 @@ img {
   background-color: #D13210; /* Darker red on hover */
 }
 
+.download-section {
+  display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center; /* Vertically center if necessary */
+  text-align: center; /* Center-align text inside the section */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* responsive hamburger menu */
+/*  hamburger menu */
 .menu-icon {
-  font-size: 2rem; /* large icon size */
+  font-size: 2rem; 
   cursor: pointer;
 }
 
 #menu-toggle:checked + .menu {
-  display: block; /* show menu when checked */
+  display: block; /* shows menu when checked */
 }
 
 .menu {
-  display: none; /* hide menu by default */
-  background: #E43D12; /* background for menu */
-  color: #EBE9E1; /* text color */
+  display: none; 
+  background: #E43D12; 
+  color: #EBE9E1; 
   padding: 1em;
 }
 
 .menu ul {
-  list-style-type: none; /* remove bullets for menu items */
-  padding-left: 0; /* remove default padding */
+  list-style-type: none; 
+  padding-left: 0; 
 }
 
 .menu ul li {
-  padding: 0.5em 0; /* add spacing between items */
+  padding: 0.5em 0; 
 }
 
 .menu ul li a {
-  color: #EBE9E1; /* link color in the menu */
+  color: #EBE9E1; /* menu link color */
 }
 
-/* utility classes */
 .text-center {
-  text-align: center; /* center-align text */
+  text-align: center; 
 }
 
-/* media query for small screens */
+/* makkes for small screens only */
 @media (max-width: 768px) {
   .menu {
-    display: block; /* ensure menu is visible on small screens */
+    display: block; 
   }
 
   nav ul {
@@ -231,52 +271,7 @@ img {
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* past projects: dropdown selection */
-.dropdown-container {
-  margin: 20px 0;
-  width: 90%; /* responsive dropdown width */
-  max-width: 800px;
-}
-
-.dropdown-button {
-  font-family: 'Amarante', cursive;
-  font-size: 32px;
-  background-color: #E43D12;
-  color: #EBE9E1;
-  padding: 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s; /* smooth hover effects */
-  outline: none;
-}
-
-.dropdown-button:hover {
-  background-color: #D0360E; /* darker hover background */
-  transform: scale(1.02); /* slight zoom effect on hover */
-}
-
-.dropdown-toggle {
-  display: none; /* hide toggle input */
-}
-
-.dropdown-content {
-  display: none; /* hidden by default */
-  padding: 15px;
-  background-color: #EBE9E1; /* light dropdown background */
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 10px;
-  text-align: left;
-}
-
-.dropdown-toggle:checked + .dropdown-button + .dropdown-content {
-  display: block; /* show dropdown when toggle is checked */
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* advanced menu styles */
+/* nav menu */
 header {
   padding: 1rem;
   position: relative;
@@ -289,50 +284,84 @@ label {
   right: 1rem;
   top: 1rem;
   width: 1.625rem;
-  z-index: 1001; /* above menu content */
+  z-index: 1001; 
 }
 
 nav {
   background: #E43D12;
   height: 36rem;
-  width: 20rem; /* menu width */
+  width: 20rem; /* the width */
   position: fixed;
-  left: -500px; /* initially hidden off-screen */
+  left: -500px; /* is hidden off-screen */
   top: 0;
   z-index: 1000;
 }
 
 .nav-toggle:checked ~ nav {
-  left: 0; /* slide menu into view when toggle is checked */
+  left: 0; /* slides menu into view when checked */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
   transform: rotate(45deg);
-  top: 8px; /* Move down to intersect */
+  top: 8px; /* Move down to make X */
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
-  opacity: 0; /* Hide the middle line */
+  opacity: 0; /* Hides middle line in menu icon*/
 }
 
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
   transform: rotate(-45deg);
-  top: -8px; /* Move up to intersect */
+  top: -8px; /* Move up to make X */
 }
 
 .nav-toggle-label {
   display: inline-block;
   position: absolute;
-  top: 40px; /* Adjust as needed */
-  left: 20px; /* Adjust as needed */
+  top: 40px; /* paddening from top of screen */
+  left: 20px;
   cursor: pointer;
-  z-index: 1001; /* Ensure it's above the header */
+  z-index: 1001; /* makes menu icon above header */
 }
 
 .nav-toggle-label span {
   display: block;
-  width: 25px; /* Width of each line */
-  height: 3px; /* Thickness of each line */
-  background-color: #EBE9E1; /* Light color to contrast with the red header */
-  margin: 5px 0; /* Spacing between lines */
+  width: 25px; /* line width */
+  height: 3px; /* line thickness */
+  background-color: #EBE9E1; 
+  margin: 5px 0; /* space between lines */
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* footer */
+footer {
+  background-color: #E43D12; /* Footer background color */
+  color: #EBE9E1; /* Text color */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center text */
+}
+
+footer .contact-info ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0 0 10px 0; /* Adjust spacing */
+}
+
+footer .contact-info li {
+  margin: 5px 0; /* Space between each contact detail */
+}
+
+footer .contact-info a {
+  color: #EBE9E1; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+footer .contact-info a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+  font-weight: bold; /* Emphasize name */
 }
