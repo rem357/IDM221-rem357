@@ -90,7 +90,8 @@ header h1 {
 }
 
 main {
-  margin-top: 80px; /* Offset to prevent content overlap */
+  margin-top: 100px;
+  padding: 1rem;
 }
 
 footer {
