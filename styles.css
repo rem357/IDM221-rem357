@@ -1,56 +1,44 @@
-
 /* reset on all browsers */
 * {
   margin: 0;
   padding: 0;
-  position: relative;
   box-sizing: border-box;
 }
 
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'B612', sans-serif; 
+  font-family: 'B612', Arial, Helvetica, sans-serif; 
   color: #E43D12; 
   background-color: #EBE9E1; 
   line-height: 1.6;
 }
 
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* typography */
+h1, h2, h3, h4 {
+  font-family: 'Amarante', Georgia, 'Times New Roman', serif;
+}
+
 h1 {
-  font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 38px; /* large */
+  font-size: 38px;
   margin: 1em 0;
 }
 
 h2, h3 {
-  font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 24px; /* medium */
+  font-size: 24px;
   margin: 0.6em 0;
 }
 
 h4 {
-  font-family: 'Amarante', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 18px; /* small */
+  font-size: 18px;
   margin: 0.4em 0;
 }
 
-h5, h6 {
-  font-family: 'B612', sans-serif, Arial, Helvetica, 'Times New Roman';
-  font-size: 14px; /* very small */
-  margin: 0.2em 0;
-}
-
 main p, main li {
-  font-size: 10pt; /*  body text */
+  font-size: 10pt;
   margin: 1em 0;
 }
 
@@ -58,49 +46,55 @@ main p, main li {
 /* links */
 a {
   color: #EBE9E1;
-  text-decoration: none; /* gets rid of underline */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main .contact-info a {
+  color: #E43D12; /* Same red as the text */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: underline; /* Always underline */
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* layout sections */
 header, nav, main, footer {
-  padding: 1rem; /* Keep spacing inside the sections */
+  padding: 1rem;
   width: 100%;
-  box-sizing: border-box;
 }
 
 header {
   background-color: #E43D12; 
   color: #EBE9E1; 
-  position: fixed; 
-  top: 0; 
-  margin: 0;
-  left: 0; 
-  width: 100%; 
-  padding: 1rem;
-  z-index: 1002; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1002;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-  margin: 0; 
-  font-size: 2rem; 
+  margin: 0;
+  font-size: 2rem;
   line-height: 1.6;
 }
 
 main {
   margin-top: 100px;
-  padding: 1rem;
 }
 
 footer {
   background-color: #E43D12;
   color: #EBE9E1;
   text-align: center;
-  font-size: 0.8em; /* small footer text */
+  font-size: 0.8em;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* container */
 .container {
   width: 100%;
@@ -109,12 +103,10 @@ footer {
   background: white;
   border: 1px solid #ccc;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
   overflow: auto;
-  margin: 0 auto; /* Center horizontally only */
 }
 
-
-/* responsive text in container */
 .container h1 {
   text-align: center;
   font-size: 1.5rem;
@@ -127,45 +119,24 @@ footer {
   line-height: 1.6;
 }
 
-/* dimentions for desktop */
-@media (min-width: 768px) {
-  body {
-    justify-content: center; /* Center content for larger screens */
-  }
-
-  .container {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow for desktop */
-  }
-}
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* lists */
 ul, ol {
-  padding-left: 1.5em; /* add padding for list indentation */
+  padding-left: 1.5em;
 }
 
 ul li {
-  list-style-type: none; /* no bullets for unordered lists */
+  list-style-type: none;
 }
 
 ol li {
-  list-style-type: decimal; /* numbers for ordered lists */
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* box style */
-.box {
-  background-color: #FFF;
-  padding: 15px;
-  border: 1px solid #D6536D;
-  border-radius: 8px; /* rounded corners */
-  margin: 10px 0;
+  list-style-type: decimal;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* images */
 img {
-  max-width: 100%; /* images will scale within their container */
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -174,186 +145,120 @@ img {
 /* buttons */
 .download-button {
   display: inline-block;
-  background-color: #E43D12; /* Button background color */
-  color: #EBE9E1; /* Button text color */
-  text-decoration: none; /* Remove underline */
-  padding: 10px 20px; /* Button padding */
-  border-radius: 5px; /* Rounded corners */
-  font-size: 1rem; /* Font size */
-  text-align: center; /* Center the text */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  background-color: #E43D12;
+  color: #EBE9E1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .download-button:hover {
-  background-color: #D13210; /* Darker red on hover */
+  background-color: #D13210;
 }
 
 .download-section {
   display: flex;
-  justify-content: center; /* Horizontally center the button */
-  align-items: center; /* Vertically center if necessary */
-  text-align: center; /* Center-align text inside the section */
-  flex-direction: column; /* Stack elements vertically */
-}
-
-
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/*  hamburger menu */
-.menu-icon {
-  font-size: 2rem; 
-  cursor: pointer;
-}
-
-#menu-toggle:checked + .menu {
-  display: block; /* shows menu when checked */
-}
-
-.menu {
-  display: none; 
-  background: #E43D12; 
-  color: #EBE9E1; 
-  padding: 1em;
-}
-
-.menu ul {
-  list-style-type: none; 
-  padding-left: 0; 
-}
-
-.menu ul li {
-  padding: 0.5em 0; 
-}
-
-.menu ul li a {
-  color: #EBE9E1; /* menu link color */
-}
-
-.text-center {
-  text-align: center; 
-}
-
-/* makkes for small screens only */
-@media (max-width: 768px) {
-  .menu {
-    display: block; 
-  }
-
-  nav ul {
-    flex-direction: column; /* stack menu items vertically */
-  }
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* nav menu */
-nav {
-  background: #E43D12; /* Menu background color */
-  position: fixed;
-  top: 0;
-  left: -100vw; /* Start hidden off-screen */
-  width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
-  display: flex; /* Center content */
-  justify-content: center;
-  align-items: center;
-  opacity: 0; /* Initially invisible */
-  visibility: hidden;
-  transition: left 0.3s ease, opacity 0.3s ease; /* Smooth animation */
-  z-index: 1000; /* Ensure menu is above everything */
-}
-
-/* Show the menu when toggle is checked */
-.nav-toggle:checked ~ nav {
-  left: 0; /* Slide into view */
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Menu List Styling */
-nav ul {
-  list-style: none;
-  text-align: center; /* Center-align menu items */
-  padding: 0;
-}
-
-nav ul li {
-  margin: 1rem 0; /* Add spacing between menu items */
-}
-
-nav ul li a {
-  color: #EBE9E1; /* Link color */
-  font-size: 1.5rem; /* Larger font for menu links */
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-}
-
-nav ul li a:hover {
-  color: #FFF; /* White on hover */
-}
-
-/* NAV TOGGLE ICON (HAMBURGER MENU) */
 .nav-toggle {
-  display: none; /* Hide checkbox input */
+  display: none;
 }
 
 .nav-toggle-label {
   position: fixed;
   top: 1rem;
-  left: 1rem; /* Position at top-left */
+  left: 1rem;
   cursor: pointer;
-  z-index: 1001; /* Above the navigation menu */
+  z-index: 1001;
 }
 
 .nav-toggle-label span {
   display: block;
   width: 30px;
   height: 3px;
-  background-color: #EBE9E1; /* Off-white icon color */
+  background-color: #EBE9E1;
   margin: 5px 0;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Transform menu icon into 'X' */
+.nav-toggle:checked ~ nav {
+  left: 0;
+  opacity: 1;
+}
+
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
+
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
   opacity: 0;
 }
+
 .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+nav {
+  background: #E43D12;
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: left 0.3s ease, opacity 0.3s ease;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 1rem 0;
+}
+
+nav ul li a {
+  color: #EBE9E1;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #FFF;
+}
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* footer */
-footer {
-  background-color: #E43D12; /* Footer background color */
-  color: #EBE9E1; /* Text color */
-  padding: 20px; /* Add padding for spacing */
-  text-align: center; /* Center text */
-}
-
 footer .contact-info ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove default padding */
-  margin: 0 0 10px 0; /* Adjust spacing */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 footer .contact-info li {
-  margin: 5px 0; /* Space between each contact detail */
+  margin: 5px 0;
 }
 
 footer .contact-info a {
-  color: #EBE9E1; /* Link color */
-  text-decoration: none; /* Remove underline */
+  color: #EBE9E1;
+  text-decoration: none;
 }
 
 footer .contact-info a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-footer p {
-  margin: 0; /* Remove default margin */
-  font-weight: bold; /* Emphasize name */
+  text-decoration: underline;
 }
