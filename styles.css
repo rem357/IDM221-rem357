@@ -1,3 +1,4 @@
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
 /* reset on all browsers */
 * {
   margin: 0;
@@ -9,15 +10,9 @@ html, body {
   height: 100%;
 }
 
-body {
-  font-family: 'B612', Arial, Helvetica, sans-serif; 
-  color: #E43D12; 
-  background-color: #EBE9E1; 
-  line-height: 1.6;
-}
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* typography/fonts */
 
-
-/* Load Amarante Font */
 @font-face {
   font-family: 'Amarante';
   src: url('fonts/Amarante-Regular.ttf') format('truetype');
@@ -25,7 +20,6 @@ body {
   font-style: normal;
 }
 
-/* Load B612 Font Variants */
 @font-face {
   font-family: 'B612';
   src: url('fonts/B612-Regular.ttf') format('truetype');
@@ -54,9 +48,13 @@ body {
   font-style: italic;
 }
 
+body {
+  font-family: 'B612', Arial, Helvetica, sans-serif; 
+  color: #E43D12; 
+  background-color: #EBE9E1; 
+  line-height: 1.6;
+}
 
-/* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* typography */
 h1, h2, h3, h4 {
   font-family: 'Amarante', Georgia, 'Times New Roman', serif;
 }
@@ -93,13 +91,13 @@ a:hover {
 }
 
 main .contact-info a {
-  color: #E43D12; /* Same red as the text */
-  font-weight: bold; /* Make the text bold */
-  text-decoration: underline; /* Always underline */
+  color: #E43D12; 
+  font-weight: bold; 
+  text-decoration: underline; 
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* layout sections */
+/* sections layout */
 header, nav, main, footer {
   padding: 1rem;
   width: 100%;
@@ -139,7 +137,7 @@ footer {
   width: 100%;
   max-width: 400px;
   min-width: 320px;
-  background: white;
+  background: #EBE9E1;
   border: 1px solid #ccc;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
@@ -181,7 +179,7 @@ img {
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
-/* download */
+/* download buttom */
 .download-button {
   display: inline-block;
   background-color: #E43D12;
@@ -194,7 +192,7 @@ img {
 }
 
 .download-button:hover {
-  background-color: #D13210;
+  background-color: #E43D12;
 }
 
 .download-section {
@@ -225,7 +223,6 @@ img {
   height: 3px;
   background-color: #EBE9E1;
   margin: 5px 0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .nav-toggle:checked ~ nav {
